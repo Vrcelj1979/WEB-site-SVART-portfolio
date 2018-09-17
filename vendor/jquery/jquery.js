@@ -1,16 +1,4 @@
-/*!
- * jQuery JavaScript Library v1.12.4
- * http://jquery.com/
- *
- * Includes Sizzle.js
- * http://sizzlejs.com/
- *
- * Copyright jQuery Foundation and other contributors
- * Released under the MIT license
- * http://jquery.org/license
- *
- * Date: 2016-05-20T17:17Z
- */
+
 
 (function( global, factory ) {
 
@@ -10997,9 +10985,7 @@ jQuery.noConflict = function( deep ) {
 	return jQuery;
 };
 
-// Expose jQuery and $ identifiers, even in
-// AMD (#7102#comment:10, https://github.com/jquery/jquery/pull/557)
-// and CommonJS for browser emulators (#13566)
+
 if ( !noGlobal ) {
 	window.jQuery = window.$ = jQuery;
 }
